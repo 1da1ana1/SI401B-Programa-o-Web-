@@ -1,0 +1,73 @@
+:root{
+    --color-background: #fbe9a0;
+    --color-background2:#b2ff9a;
+    --color-background3:#7cff55;
+    --color-general-text:#281C11;
+    --color-title: #000000;
+    --color-boxes:#FFDB59;
+    --color-topics-hover:#ffefbc;
+    --color-comment-hover: #f9f9f9;
+    --color-linksAtvd-hover:#88df6d;
+    --color-border: #FF004D;
+    --color-comment-number: #1976d2;
+    font-size: 60%; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+html, body{
+    height: 100vh;
+    
+}
+
+body{
+    font-family: 'Courier Prime', monospace;
+}
+
+main {
+    flex: 1; 
+}
+
+h1{
+    padding-top: 5vh;
+    text-align: center;
+    font-size: 3em;
+}
+
+.title-banner{
+    display: block; 
+    font-size: 1.4em;
+    margin-bottom: 15px; 
+}
+
+.pages-container{
+    padding: 1.5em 15em 0em 15em;
+    min-height: 65vh; 
+}
+
+footer{
+    background: url("../img/footer.png") ;
+    height: 160px; 
+    width: 100%;
+    transform: translateY(-33px) ;
+    background-size: contain; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,186 @@
+body{
+    background-image: url("../img/header1.jpg");
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    max-width: 90%;
+}
+
+header{
+    position: relative;
+    background-color: var(--color-background);   
+    width: 100%;
+    height: 100px;    
+}
+
+header .pages-title, img{
+    display: inline;
+}
+
+header .pages-title{
+    position: absolute;     
+    left: 50%;              
+    transform: translateX(-50%); 
+    margin: 0;              
+    line-height: 100px;  
+    color: var( --color-title);   
+}
+
+#return-index img{
+    width: 80px;
+    height: 80px;
+    margin:10px 130px;  
+}
+
+#return-index img:hover{
+    transform: scale(1.5); 
+}
+
+
+.title-banner{
+    display: block; 
+    font-size: 1.4em;
+    margin-bottom: 15px; 
+}
+
+
+p{
+    padding-bottom:5px;
+}
+
+
+.links{
+    background-color: var(--color-background2);
+    border: 1px solid var(--color-border);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.links.atvd { 
+    background-color: var(--color-background3); 
+}
+
+.links.atvd:hover{
+    background-color: var(--color-linksAtvd-hover);
+    transition: 300ms; 
+}
+
+/*parte da pagina de presença e atividades avaliativas*/
+section.presenca, #atividades{
+    background-color: var(--color-background2);
+    border: 1px solid var(--color-border);
+}
+
+/*esqueci de q pagina q é */
+
+.description-section img, h3, li{
+    display: inline;
+}
+
+.description-section img{
+    width: 20px;
+    height: 20px;
+   
+}
+
+.description-section p{
+    padding: 10px 20px;
+}
+
+
+.box-holder{
+    padding: 20px;
+    height: 30%;
+    border: 1px solid var(--color-border);
+    padding: 10px;   
+}
+
+/* partes dos foruns */
+
+
+.table ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+
+.table ul {
+    background-color: var( --color-background-title-banner);
+}
+
+      
+.foruns p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #333;
+        
+}
+        
+.topics-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+}
+        
+.topics-table thead {
+    background-color: #ffffff;
+}
+        
+.topics-table th {
+    padding: 15px;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-border);
+    }
+        
+.topics-table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+}
+        
+.topics-table tr:last-child td {
+    border-bottom: none;
+}
+        
+.topics-table tr:hover {
+    background-color: var(--color-comment-hover);
+}
+        
+.topic-title {
+    font-weight: 600;
+    color: var(--color-comment);
+    text-decoration: none;
+}
+        
+.topic-title:hover {
+    text-decoration: underline;
+}
+        
+.author-info, .last-message {
+    font-size: 0.9rem;
+
+}
+        
+.author-name {
+    font-weight: 500;
+    display: block;
+}
+        
+.date {
+    font-size: 0.85rem;
+}
+        
+.comments-count {
+    text-align: center;
+    background-color: #ffffff;
+    color: var(--color-comment);
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
